@@ -9,13 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            MissionControlView()
+                .tabItem {
+                    Label("Mission", systemImage: "house.fill")
+                }
+            
+            DailyTrackerView()
+                .tabItem {
+                    Label("Thrust", systemImage: "flame.fill")
+                }
+            
+            LongTermVisionView()
+                .tabItem {
+                    Label("Polaris", systemImage: "target")
+                }
+            
+            StarMapView()
+                .tabItem {
+                    Label("Star Map", systemImage: "chart.bar.xaxis")
+                }
+            
+            StellarArchiveView()
+                .tabItem {
+                    Label("Archive", systemImage: "star.circle.fill")
+                }
         }
-        .padding()
     }
 }
 
