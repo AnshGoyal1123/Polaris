@@ -50,7 +50,7 @@ Polaris uses a tab-based navigation system:
 
 ## 🧠 About the Creator
 
-This app is part of a personal journey in learning iOS development from scratch, while creating a system to support long-term personal growth.
+This app is part of my personal journey in learning iOS development from scratch, while creating a system to support long-term personal growth.
 
 ---
 
