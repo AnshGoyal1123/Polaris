@@ -29,33 +29,9 @@
 		1BABE5992E3860200074A103 /* PolarisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolarisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1BABE5B32E3860BA0074A103 /* Exceptions for "Polaris" folder in "Polaris" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				.swift,
-			);
-			target = 1BABE5812E38601C0074A103 /* Polaris */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		1BABE5B42E3860BA0074A103 /* Exceptions for "Polaris" folder in "Compile Sources" phase from "Polaris" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 1BABE57E2E38601C0074A103 /* Sources */;
-			membershipExceptions = (
-				.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1BABE5842E38601C0074A103 /* Polaris */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1BABE5B32E3860BA0074A103 /* Exceptions for "Polaris" folder in "Polaris" target */,
-				1BABE5B42E3860BA0074A103 /* Exceptions for "Polaris" folder in "Compile Sources" phase from "Polaris" target */,
-			);
 			path = Polaris;
 			sourceTree = "<group>";
 		};

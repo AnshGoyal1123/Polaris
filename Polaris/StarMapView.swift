@@ -1,5 +1,5 @@
 //
-//  MissionControlView 2.swift
+//  StarMapView.swift
 //  Polaris
 //
 //  Created by Ansh Goyal on 7/28/25.
